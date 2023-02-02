@@ -2,7 +2,7 @@ library(tidyverse)
 data <- data('iris') #loads data
 summary(iris)
 
-# Let's see an overview of the dimensions of the flowers, for each species of iris
+# Let's see a visual overview of the dimensions of the flowers, for each species of iris
 boxplot(Sepal.Length~Species,
         data=iris,
         main='Sepal Length by Species',
