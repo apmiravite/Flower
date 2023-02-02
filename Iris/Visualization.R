@@ -1,3 +1,3 @@
-library(tidyverse)
-data<-data('iris')
+library(tidyverse) 
+data<-data('iris') #loads data
 summary(iris)
