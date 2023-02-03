@@ -3,5 +3,6 @@
 <details>
 <summary>Iris</summary>
 <br>
-This is how you dropdown.
+Let's get a visual overview of the dimensions for each species of iris.
+
 </details>
