@@ -29,7 +29,7 @@ Let's get a visual overview of the dimensions for each species of iris. We did f
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
  
-The boxplots are not on the same level, it is very likely that the means of the dimensions of the iris species are not the same. We can confirm this by doing an anova test.
+The boxplots are not on the same level, it is very likely that the means of the dimensions of the iris species are not the same. We can confirm this through analysis of variance (ANOVA).
  
 <img
   src="https://github.com/apmiravite/Flower/blob/main/Iris/images/iris%20aov.png"
