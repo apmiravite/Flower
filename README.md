@@ -37,5 +37,5 @@ The boxplots are not on the same level, it is very likely that the means of the 
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 300px">
  
-With all p-values less than 0.05, we can reject the null hypothesis that the dimensions of the iris species are the same.
+With all p-values less than 0.05, we can reject the null hypothesis that the dimensions of the iris species are the same, and that the average from at least one of the groups is different from the rest.
 </details>
