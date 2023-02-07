@@ -69,5 +69,17 @@ versicolor-setosa    2.798 2.59422 3.00178     0
 virginica-setosa     4.090 3.88622 4.29378     0
 virginica-versicolor 1.292 1.08822 1.49578     0
 ```
+```R
+TukeyHSD(mod_sep_Width, conf.level = 0.95)
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Sepal.Width ~ Species, data = iris)
+
+$Species
+                       diff         lwr        upr     p adj
+versicolor-setosa    -0.658 -0.81885528 -0.4971447 0.0000000
+virginica-setosa     -0.454 -0.61485
+```
 
 </details>
