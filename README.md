@@ -56,5 +56,18 @@ versicolor-setosa    0.930 0.6862273 1.1737727     0
 virginica-setosa     1.582 1.3382273 1.8257727     0
 virginica-versicolor 0.652 0.4082273 0.8957727     0
 ```
+```R
+TukeyHSD(mod_pet_Length, conf.level = 0.95)
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Petal.Length ~ Species, data = iris)
+
+$Species
+                      diff     lwr     upr p adj
+versicolor-setosa    2.798 2.59422 3.00178     0
+virginica-setosa     4.090 3.88622 4.29378     0
+virginica-versicolor 1.292 1.08822 1.49578     0
+```
 
 </details>
