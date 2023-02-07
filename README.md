@@ -56,6 +56,21 @@ versicolor-setosa    0.930 0.6862273 1.1737727     0
 virginica-setosa     1.582 1.3382273 1.8257727     0
 virginica-versicolor 0.652 0.4082273 0.8957727     0
 ```
+
+```R
+TukeyHSD(mod_sep_Width, conf.level = 0.95)
+  Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Sepal.Width ~ Species, data = iris)
+
+$Species
+                       diff         lwr        upr     p adj
+versicolor-setosa    -0.658 -0.81885528 -0.4971447 0.0000000
+virginica-setosa     -0.454 -0.61485528 -0.2931447 0.0000000
+virginica-versicolor  0.204  0.04314472  0.3648553 0.0087802
+```
+ 
 ```R
 TukeyHSD(mod_pet_Length, conf.level = 0.95)
   Tukey multiple comparisons of means
@@ -69,17 +84,19 @@ versicolor-setosa    2.798 2.59422 3.00178     0
 virginica-setosa     4.090 3.88622 4.29378     0
 virginica-versicolor 1.292 1.08822 1.49578     0
 ```
-```R
-TukeyHSD(mod_sep_Width, conf.level = 0.95)
+ 
+```R 
+TukeyHSD(mod_pet_Width, conf.level = 0.95)
   Tukey multiple comparisons of means
     95% family-wise confidence level
 
-Fit: aov(formula = Sepal.Width ~ Species, data = iris)
+Fit: aov(formula = Petal.Width ~ Species, data = iris)
 
 $Species
-                       diff         lwr        upr     p adj
-versicolor-setosa    -0.658 -0.81885528 -0.4971447 0.0000000
-virginica-setosa     -0.454 -0.61485
+                     diff       lwr       upr p adj
+versicolor-setosa    1.08 0.9830903 1.1769097     0
+virginica-setosa     1.78 1.6830903 1.8769097     0
+virginica-versicolor 0.70 0.6030903 0.7969097     0 
 ```
 
 </details>
