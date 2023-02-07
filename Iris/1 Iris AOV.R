@@ -37,12 +37,16 @@ boxplot(Petal.Length~Species,
 #new codes start here
 mod_sep_Length  = aov(Sepal.Length~Species,data=iris)
 summary(mod_sep_Length)
+TukeyHSD(mod_sep_Length, conf.level = 0.95) # Tukey's HSD
 
 mod_sep_Width  = aov(Sepal.Width~Species,data=iris)
 summary(mod_sep_Width)
+TukeyHSD(mod_sep_Width, conf.level = 0.95) # Tukey's HSD
 
 mod_pet_Width  = aov(Petal.Width~Species,data=iris)
 summary(mod_pet_Width)
+TukeyHSD(mod_pet_Width, conf.level = 0.95) # Tukey's HSD
 
 mod_pet_Length  = aov(Petal.Length~Species,data=iris)
 summary(mod_pet_Length)
+TukeyHSD(mod_pet_Length, conf.level = 0.95) # Tukey's HSD
