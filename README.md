@@ -45,6 +45,16 @@ Since the null hypothesis is rejected, we do additional tests to determine which
 
 ```R
 TukeyHSD(mod_sep_Length, conf.level = 0.95)
+ Tukey multiple comparisons of means
+    95% family-wise confidence level
+
+Fit: aov(formula = Sepal.Length ~ Species, data = iris)
+
+$Species
+                      diff       lwr       upr p adj
+versicolor-setosa    0.930 0.6862273 1.1737727     0
+virginica-setosa     1.582 1.3382273 1.8257727     0
+virginica-versicolor 0.652 0.4082273 0.8957727     0
 ```
 
 </details>
