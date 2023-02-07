@@ -41,7 +41,7 @@ The boxplots are not on the same level, it is very likely that the means of the 
  
 With all p-values less than 0.05, we can reject the null hypothesis that the dimensions of the iris species are the same, and that the average from at least one of the groups is different from the rest.
 
-Since the null hypothesis is rejected, we do additional tests to determine which groups differ (and which ones are the same). This can be done by doing a pairwise examination of two groups.
+Since the null hypothesis is rejected, we do additional tests to determine which groups differ (and which ones are the same). This can be done by doing a pairwise examination of two treatment groups.
 
 ```R
 TukeyHSD(mod_sep_Length, conf.level = 0.95)
