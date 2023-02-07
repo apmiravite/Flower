@@ -98,5 +98,5 @@ versicolor-setosa    1.08 0.9830903 1.1769097     0
 virginica-setosa     1.78 1.6830903 1.8769097     0
 virginica-versicolor 0.70 0.6030903 0.7969097     0 
 ```
-
+The output from TukeysHSD produces confidence intervals as well as p-values for a two-sided t-test for every combination of grouped pairs. Results from the TukeyHSD tests (confidence interval and p-values) show that all averages are significantly different from one another. 
 </details>
